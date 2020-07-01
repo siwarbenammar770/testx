@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: Tab1Page,
+  },
+  {
+    path: 'modif',
+    loadChildren: () => import('./modif/modif.module').then( m => m.ModifPageModule)
   }
 ];
 

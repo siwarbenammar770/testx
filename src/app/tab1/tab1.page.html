@@ -17,7 +17,7 @@
 </ion-content> -->
 
 
-<ion-header translucent no-border>
+<!-- <ion-header translucent no-border>
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-button color="light">
@@ -32,11 +32,51 @@
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
+</ion-header> -->
+
+<ion-header >
+  <ion-toolbar>
+    <ion-title >
+      Profil
+    </ion-title>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen="true" slot="fixed" >
-  <div class="ion-padding">
+<ion-content  fullscreen="true" slot="fixed" >
+  <!-- <div class="ion-padding">
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  </div> -->
+
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img src="../../assets/img/alia.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <div class="user-meta ion-text-center">
+      <h3 class="playername">Alia Soltani</h3>
+      
+      <!-- <h6 class="ranking">Current ranking: <ion-chip>
+        <ion-label>2</ion-label>
+        </ion-chip>
+      </h6> -->
+      <h5 class="country">Professeur</h5>
+     
+      
+    </div>
+    
+    <div class="input ion-text-center">
+    <ion-input value="Email: abc@gmail.com" readonly></ion-input>
+      <ion-input value="Adresse: Avenue tutu, Tunis" readonly></ion-input>
+      <ion-input value="Telephone: 55 256 985" readonly></ion-input>
+    </div>
+
+    <ion-button expand="full"  color="blue"shape="round" routerLink="modif">Modifier vos données</ion-button>
+    <ion-button expand="full" color="light" shape="round">Se déconnecter</ion-button>
+    <!-- <ion-button expand="full" color="secondary">View profile at ATP</ion-button> -->
   </div>
 </ion-content>
