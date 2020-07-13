@@ -37,11 +37,11 @@ ion-toolbar {
     }
 }
 
-.card-body {
+.card-body1 {
     background-color: #030303b4;
     padding: 30px;
     margin-top: -40px;
-    height: calc(120vh - (200px + 56px));
+    //height: calc(120vh - (200px + 56px));
     overflow: hidden;
 
     .user-meta {
@@ -75,3 +75,56 @@ ion-toolbar {
 
     }
 }
+
+// .card {
+//     margin: 0 auto;
+
+//     .header {
+//         height: 200px;
+
+//         .avatar {
+//             width: 120px;
+//             height: 120px;
+//             position: relative;
+//             margin: 0 auto;
+            
+            
+
+//             img {
+//                 display: block;
+//                 border-radius: 50%;
+//                 position: absolute;
+//                 bottom: calc(-1*(80px + 4px));
+//                 border: 8px solid #2e2e8042;
+//                 background-color: #fff;
+//             } 
+//         }
+//     }
+// }
+
+.card-body2 {
+    background-color: #030303b4;
+    padding: 30px;
+    padding-top: 80px;
+    margin-top: 40px;
+    //height: calc(115vh - (200px + 56px));
+    overflow: hidden;
+
+    ion-input {
+        border: 1px solid #8583ee;
+        border-radius: 10px !important;
+        --placeholder-color:white;
+        margin-bottom: 5px;
+        --padding-start: 10px;
+       
+        }
+ion-button{
+    margin-top: 20px;
+    display: inline-block;
+   
+    font-size: 0.9em;
+    height: 40px;
+
+}
+        
+    }
